@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Steve Jobs</title>
-  <meta name="description" content="A Steve Jobs tribute page.">
-  <meta name="author" content="Jorge Sanz">
+  <title>Diogo Jota</title>
+  <meta name="description" content="A Diogo Jota tribute page.">
+  <meta name="author" content="Aseef Bandey">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,23 +34,44 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="first-div">
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns" style="margin-top: 20vh">
-          <h1 id="first-div-title">Steve Jobs</h1>
-          <h3 id="first-div-subtitle">1955 - 2011</h3>
-          <a href="https://www.youtube.com/watch?v=8rwsuXHA7RA"><img id="first-div-button" src="./images/Circular Play Button.png"></a>
-        </div>
+<div id="first-div">
+  <div class="container" id="hero-content">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 20vh">
+        <h1 id="first-div-title">Diogo Jota</h1>
+        <h3 id="first-div-subtitle">1996 - 2025</h3>
+        <a href="#" id="play-tribute">
+          <img id="first-div-button" src="./images/Circular Play Button.png" alt="Play Tribute">
+        </a>
       </div>
     </div>
   </div>
+ <div id="video-area" style="display:none; justify-content:center; align-items:center; min-height:70vh; position:relative;">
+  <iframe width="820" height="461" src="" id="tribute-video"
+    frameborder="0" allowfullscreen style="border-radius:20px; box-shadow: 0 4px 30px rgba(0,0,0,0.5);"></iframe>
+  <button id="close-video" style="
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 2em;
+    color: #fff;
+    background: none;
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;">
+    ×
+ </button>
+</div>
+</div>
+
 
   <!-- Second Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div id="second-div">
-    <div id="second-div-text"><div id="steve-jobs-quote">Design is not just what it looks like and feels like. Design is how it works.</div></div>
-    <div id="second-div-image"><img id="steve-jobs-image" src="./images/steve-jobs.png"></div>
+    <div id="second-div-text"><div id="steve-jobs-quote">In the box, I don't like to do too many things.</div></div>
+    <div id="second-div-image"><img id="steve-jobs-image" src="./images/IMG_2504.PNG"></div>
   </div>
 
   <!-- Third Page Layout
@@ -61,26 +82,96 @@
         <div class="two columns"><br></div>
         <div class="eight columns" id="third-div-content">
           <h1 id="third-div-title">Biography</h1>
-          <h5 id="third-div-text">Steven Paul “Steve” Jobs was an American information
-technology entrepreneur and inventor. He was the cofounder,
-chairman, and CEO of Apple Inc, CEO and largest shareholder
-of Pixar Animation Studios; and founder, chairman, and CEO
-of NeXT Inc. Jobs is widely recognized as a pioneer of the
-microcomputer revolution of the 1970s, along with Apple
-co-founder Steve Wozniak. “Creative entrepreneur whose
-passion for perfection and ferocious drive revolutionized six
-industries: personal computers, animated movies, music,
-phones, tablet computing, and digital publishing.</p>
+          <h5 id="third-div-text">Diogo José Teixeira da Silva, widely known as Diogo Jota, was a Portuguese professional footballer and forward. He was born on December 4, 1996, in Massarelos, Portugal, and tragically passed away on July 3, 2025. Jota was renowned for his pace, finishing, and versatility. He began his career at Paços de Ferreira, later joining Atlético Madrid, and rose to fame with Wolverhampton Wanderers before moving to Liverpool in 2020. At Liverpool, he won the Premier League, FA Cup, and EFL Cups. Internationally, he represented Portugal, winning the UEFA Nations League in 2019 and 2025. Jota is remembered as a hardworking, talented, and respected figure in world football.</p> <a href="https://en.wikipedia.org/wiki/Diogo_Jota" target="_blank">More at Wikipedia</a>
           </h5>
         </div>
         <div class="two columns"><br></div>
       </div>
       <hr width="80%">
     </div>
-    <p id="author-text">Made with <i class="fa fa-apple"></i> by <a href="http://jorgesanz.xyz/">Jorge Sanz</a></p>
+    <p id="author-text">Made with <i class="fa fa-heart"></i>
+by <a href="https://www.linkedin.com/in/aseef-bandey-8050b6276/">Aseef Bandey</a></p>
   </div>
+  <div id="video-modal" style="
+  display:none; position:fixed; top:0; left:0; width:100vw; height:100vh;
+  background:rgba(0,0,0,0.93); z-index:9999; justify-content:center; align-items:center;">
+  <iframe width="820" height="461"
+    src=""
+    id="tribute-video"
+    frameborder="0" allowfullscreen></iframe>
+  <button onclick="document.getElementById('video-modal').style.display='none';
+                   document.getElementById('tribute-video').src='';"
+    style="position:absolute; top:30px; right:50px; font-size:3em; color:white; background:none; border:none; cursor:pointer;">×</button>
+</div>
+<button id="dove-btn" style="
+  position: fixed;
+  bottom: 80px;
+  right: 45px;
+  z-index: 20;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2.5em;
+  color: #99d2ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.15s;">
+  <span id="dove-icon">🕊️</span>
+  <span id="dove-count" style="
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 0.2em;
+    text-shadow: 0 2px 8px #000;
+  ">0</span>
+</button>
+
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+<script>
+document.getElementById('play-tribute').onclick = function(e) {
+  e.preventDefault();
+  document.getElementById('hero-content').style.display = 'none';
+  var video = document.getElementById('tribute-video');
+  video.src = 'https://www.youtube.com/embed/U9t2xbnyGOY?autoplay=1';
+  document.getElementById('video-area').style.display = 'flex';
+};
+// Optional: Add a "back" or "close video" button if you want to return to the hero
+document.getElementById('play-tribute').onclick = function(e) {
+  e.preventDefault();
+  document.getElementById('hero-content').style.display = 'none';
+  var video = document.getElementById('tribute-video');
+  video.src = 'https://www.youtube.com/embed/U9t2xbnyGOY?autoplay=1';
+  document.getElementById('video-area').style.display = 'flex';
+};
+
+document.getElementById('close-video').onclick = function() {
+  document.getElementById('video-area').style.display = 'none';
+  var video = document.getElementById('tribute-video');
+  video.src = ''; // Stops the video
+  document.getElementById('hero-content').style.display = 'flex';
+};
+
+let count = localStorage.getItem('doveCount') || 0;
+const doveBtn = document.getElementById('dove-btn');
+const doveCount = document.getElementById('dove-count');
+doveCount.textContent = count;
+
+doveBtn.onclick = function() {
+  count++;
+  doveCount.textContent = count;
+  localStorage.setItem('doveCount', count);
+  doveBtn.style.transform = 'scale(1.18)';
+  setTimeout(() => doveBtn.style.transform = '', 120);
+};
+
+
+
+</script>
+
+
 </html>
