@@ -169,6 +169,20 @@ doveBtn.onclick = function() {
   setTimeout(() => doveBtn.style.transform = '', 120);
 };
 
+// Example for dove counter
+fetch('https://jotaprojectt.aseefahmad46.workers.dev/')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('dove-count').textContent = data.count;
+  });
+
+document.getElementById('dove-btn').onclick = function() {
+  fetch('https://jotaprojectt.aseefahmad46.workers.dev/', {method: 'POST'})
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('dove-count').textContent = data.count;
+    });
+};
 
 
 </script>
