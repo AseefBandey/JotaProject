@@ -169,13 +169,14 @@ doveBtn.onclick = function() {
   setTimeout(() => doveBtn.style.transform = '', 120);
 };
 
-// Example for dove counter
+// On page load, show shared count from Worker
 fetch('https://jotaprojectt.aseefahmad46.workers.dev/')
   .then(res => res.json())
   .then(data => {
     document.getElementById('dove-count').textContent = data.count;
   });
 
+// On dove button click, update via Worker
 document.getElementById('dove-btn').onclick = function() {
   fetch('https://jotaprojectt.aseefahmad46.workers.dev/', {method: 'POST'})
     .then(res => res.json())
