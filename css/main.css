@@ -131,6 +131,15 @@ html {
   margin-bottom: 25vh;
 }
 
+@media only screen and (max-width: 600px) {
+  #second-div-text {
+    margin-bottom: 8px; /* reduce margin below the quote */
+  }
+  #second-div-image {
+    margin-top: 8px;  /* reduce space above the image */
+  }
+}
+
 #steve-jobs-quote {
   max-width: 400px;
   margin-left: auto;
