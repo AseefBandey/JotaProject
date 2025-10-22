@@ -46,8 +46,8 @@ html {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: url('../images/image.jpg') center center/cover no-repeat; center center/cover no-repeat;
-  opacity: 0.3;             /* Adjust for subtlety */
-  filter: blur(2px);         /* Softens image */
+  opacity: 0.6;             /* Adjust for subtlety */
+  filter: blur(1.3px);         /* Softens image */
   z-index: 1;
 }
 
