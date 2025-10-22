@@ -103,29 +103,6 @@ by <a href="https://www.linkedin.com/in/aseef-bandey-8050b6276/">Aseef Bandey</a
                    document.getElementById('tribute-video').src='';"
     style="position:absolute; top:30px; right:50px; font-size:3em; color:white; background:none; border:none; cursor:pointer;">×</button>
 </div>
-<button id="dove-btn" style="
-  position: fixed;
-  bottom: 80px;
-  right: 45px;
-  z-index: 20;
-  background: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 2.5em;
-  color: #99d2ec;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.15s;">
-  <span id="dove-icon">🕊️</span>
-  <span id="dove-count" style="
-    font-size: 1.1em;
-    color: #fff;
-    margin-top: 0.2em;
-    text-shadow: 0 2px 8px #000;
-  ">0</span>
-</button>
 
 
 
@@ -156,34 +133,6 @@ document.getElementById('close-video').onclick = function() {
   document.getElementById('hero-content').style.display = 'flex';
 };
 
-let count = localStorage.getItem('doveCount') || 0;
-const doveBtn = document.getElementById('dove-btn');
-const doveCount = document.getElementById('dove-count');
-doveCount.textContent = count;
-
-doveBtn.onclick = function() {
-  count++;
-  doveCount.textContent = count;
-  localStorage.setItem('doveCount', count);
-  doveBtn.style.transform = 'scale(1.18)';
-  setTimeout(() => doveBtn.style.transform = '', 120);
-};
-
-// On page load, show shared count from Worker
-fetch('https://jotaprojectt.aseefahmad46.workers.dev/')
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById('dove-count').textContent = data.count;
-  });
-
-// On dove button click, update via Worker
-document.getElementById('dove-btn').onclick = function() {
-  fetch('https://jotaprojectt.aseefahmad46.workers.dev/', {method: 'POST'})
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById('dove-count').textContent = data.count;
-    });
-};
 
 
 </script>
