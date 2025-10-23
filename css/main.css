@@ -144,8 +144,7 @@ transition: transform 0.2s, box-shadow 0.2s;
 
 #first-div-button:hover {
   transform: scale(1.08);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-  cursor: pointer;
+    cursor: pointer;
 }
 /* ----- Second div ----- */
 #second-div {
