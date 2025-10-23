@@ -4,6 +4,44 @@ html {
 }
 
 /* ----- Fist div ----- */
+.button {
+  margin-top: 20em;
+  display: inline-block;
+  font-size: 1.08em;
+  padding: 13px 32px;
+  color: #fbfbfb !important;
+  background: rgba(32,32,32,0.82); /* subtle, dark, semi-transparent */
+  border: 1.5px solid #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  backdrop-filter: blur(1.5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.19);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+   /* gold on hover for subtle highlight */
+  background: rgba(32,32,32,0.95);
+  box-shadow: 0 6px 32px rgba(0,0,0,0.35);
+  border-color: #ffd700;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 0.98em;
+    padding: 12px 13vw;
+    margin-top: 4em;
+    width: auto;
+    min-width: 54vw;
+    max-width: 88vw;
+  }
+}
+
+
+
 #play-tribute {
   position: relative;
   display: inline-block;
@@ -11,7 +49,7 @@ html {
 }
 
 #play-tribute::after {
-  content: "Every Goal Scored by Diogo Jota | Lverpool FC";
+  content: "Forever  Diogo Jota";
   position: absolute;
   bottom: 100%; /* above the button */
   left: 50%;
