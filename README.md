@@ -1,4 +1,9 @@
 # Digo Jota
+## Banner
+
+![Diogo Jota](images/Diogo+Jota.png)
+
+This banner image is used to visually enhance the tribute to Digo Jota.
 
 This is a tribute web project dedicated to Digo Jota, celebrating his contributions and legacy.  
 Visit the live demo here: [jotaforever.vercel.app](https://jotaforever.vercel.app)
