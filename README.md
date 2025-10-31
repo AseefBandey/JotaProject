@@ -1,12 +1,15 @@
-# JotaProject
+# Digo Jota
 
-JotaProject is a web-based project built with HTML and CSS.  
-[Live Demo](https://jotaforever.vercel.app)
+This is a tribute web project dedicated to Digo Jota, celebrating his contributions and legacy.  
+Visit the live demo here: [jotaforever.vercel.app](https://jotaforever.vercel.app)
+
+## About the Project
+This project is designed to honor Digo Jota by showcasing key moments, achievements, and information related to him through a clean and responsive web interface.
 
 ## Features
-- Responsive and clean design
+- Tribute content highlighting Digo Jota's career and achievements
+- Responsive and user-friendly design
 - Easy to customize and extend
-- Lightweight and fast loading
 
 ## Technologies Used
 - HTML5
@@ -15,14 +18,14 @@ JotaProject is a web-based project built with HTML and CSS.
 ## Usage
 1. Clone the repository
 2. Open `index.html` in your browser
-3. Modify the HTML and CSS as needed to customize
+3. Customize the content or styling as desired
 
 ## Contributing
-Contributions are welcome! Please open issues or submit pull requests.  
-Make sure to follow the repo guidelines.
+Contributions to enhance the tribute content, improve design, or fix bugs are very welcome! Please open issues or submit pull requests following the guidelines.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or feedback, please open an issue or reach out directly.
+For questions, suggestions, or collaboration, please open an issue or get in touch directly.
+
