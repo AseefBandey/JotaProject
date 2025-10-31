@@ -1,7 +1,7 @@
 # Digo Jota
 ## Banner
 
-![Diogo Jota](images/Diogo+Jota.png)
+![Diogo Jota](images/DiogoJota.png)
 
 This banner image is used to visually enhance the tribute to Digo Jota.
 
