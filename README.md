@@ -4,7 +4,12 @@ This is a tribute web project dedicated to Digo Jota, celebrating his contributi
 Visit the live demo here: [jotaforever.vercel.app](https://jotaforever.vercel.app)
 
 ## About the Project
-This project is designed to honor Digo Jota by showcasing key moments, achievements, and information related to him through a clean and responsive web interface.
+This project is designed to honor Digo Jota by showcasing key moments, achievements, and information related to him through a clean and responsive web interface
+## Credit
+This project was originally cloned and built upon from the [tribute-page](https://github.com/jorge-sanz/tribute-page) by jorge-sanz.  
+Significant improvements and customizations have been made to tailor it as a tribute to Digo Jota.
+
+
 
 ## Features
 - Tribute content highlighting Digo Jota's career and achievements
