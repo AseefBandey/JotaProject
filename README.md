@@ -1,7 +1,7 @@
 # Digo Jota
 ## Banner
 
-![Diogo Jota](https://github.com/AseefBandey/JotaProject/blob/main/images/DiogoJota.png)
+![Diogo Jota](https://i.postimg.cc/kMVKTsvh/Diogo-Jota.png)
 
 This banner image is used to visually enhance the tribute to Digo Jota.
 
