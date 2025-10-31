@@ -1,6 +1,4 @@
-# Digo Jota
-## Banner
-
+# Digo Jota 20 Forever
 ![Diogo Jota](https://i.postimg.cc/kMVKTsvh/Diogo-Jota.png)
 
 This banner image is used to visually enhance the tribute to Digo Jota.
